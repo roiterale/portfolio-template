@@ -5,6 +5,7 @@
 body {
   font-family: Hack, monospace;
   margin: 0;
+  background-color: #091d77;
 }
 
 .header__container {
@@ -29,7 +30,7 @@ body {
   display: flex;
   justify-content: space-between;
 
-  background-color: #091d77;
+  background-color: #2242ce;
   padding: 30px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
@@ -65,7 +66,7 @@ body {
 
 .section__container {
   width: 100%;
-  background-color: #F9F9F9;
+  background-color: #2242ce;
   margin-top: 40px;
   padding: 30px;
   font-size: 18px;
