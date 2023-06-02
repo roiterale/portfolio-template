@@ -252,6 +252,7 @@ body {
   max-width: 810px;
   margin-right: auto;
   margin-left: auto;
+  border-radius: 50% 20% / 10% 40%;
 }
 
 
