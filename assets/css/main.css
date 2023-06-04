@@ -5,13 +5,13 @@
 body {
   font-family: Hack, monospace;
   margin: 0;
-  background-color: #091d77;
+  background-color: #BBBBBB;
 }
 
 .header__container {
   width: 100%;
   text-align: center;
-  color: #8F8F8F;
+  color: whitesmoke;
 }
 
 .header__span {
@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: space-between;
 
-  background-color: #2242ce;
+  background-color: #14293D;
   padding: 30px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
@@ -38,7 +38,7 @@ body {
 .nav__link {
   position: relative;
   font-size: 20px;
-  color: #8F8F8F;
+  color: whitesmoke;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -48,7 +48,7 @@ body {
 .nav__link::before {
   content: attr(data-fill-animate);
   transition: all 0.5s ease-in-out;
-  color: #8254ff;
+  color: #016494;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -66,11 +66,11 @@ body {
 
 .section__container {
   width: 100%;
-  background-color: #2242ce;
+  background-color: #016494;
   margin-top: 40px;
   padding: 30px;
   font-size: 18px;
-  color: #8F8F8F;
+  color: white;
   text-align: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
@@ -78,7 +78,7 @@ body {
 .section__title {
   margin: 0 0 16px 0;
   font-size: 24px;
-  color: #8F8F8F;
+  color: whitesmoke;
   text-transform: uppercase;
 }
 
@@ -179,7 +179,7 @@ body {
 
 .project__link {
   padding: 8px 18px;
-  background-color: #8254FF;
+  background-color: #016494;
   border-radius: 4px;
 
   font-size: 14px;
